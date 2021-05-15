@@ -1,0 +1,6 @@
+{
+    "smtpServer": "smtp.gmail.com",
+    "port": 587,
+    "fromUser": "sender@example.com",
+    "toUser": "to@example.com"
+}
