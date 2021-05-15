@@ -8,7 +8,7 @@ Watch emag products
     userID = 'user@example.com'
     password = 'your_password'
     ```
-    For gmail you need to have 2FA enabled
+    For gmail you need to have 2FA enabled then generate a mail app password ((search for "google app passwords"))
   * rename the file from *modify.env* to *.env*
   
 - **modify_config.json** file 
