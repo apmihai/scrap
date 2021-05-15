@@ -3,3 +3,4 @@ config.json
 /__pycache__
 scraper.py
 scraper-csv.py
+requirements_init.txt
