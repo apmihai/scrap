@@ -4,3 +4,4 @@ config.json
 scraper.py
 scraper-csv.py
 requirements_init.txt
+/.vscode

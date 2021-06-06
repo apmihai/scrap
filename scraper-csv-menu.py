@@ -67,9 +67,7 @@ def mainf(nr_mail):
     #-------------------Call functions
     print('Processing...')
     body = ''
-    for i in range(len(urls)):
-        url = urls[i]
-        tinta = tintas[i]
+    for url, tinta in zip(urls, tintas):
         title, converted_price = get_data(url)
         body = body + check_price(tinta, nr_mail, title, converted_price, url)
     if nr_mail == 2:
@@ -79,8 +77,7 @@ def mainf(nr_mail):
     exit()
  
  #-------------------Menu
-
-choice = menu()
+choice = menu().upper()
 while choice != 'Q':
     if choice == '1':
         nr_mail = 1         # multiple mails
